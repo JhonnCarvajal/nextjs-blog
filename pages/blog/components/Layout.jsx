@@ -4,7 +4,7 @@ import Link from "next/link";
 import React from "react";
 import styles from "../../../styles/Layout.module.css";
 import utilStyles from "../../../styles/utils.module.css";
-export const Layout = ({ children, title, description, home }) => {
+export default function Layout({ children, title, description, home }) {
   const name = "Jhonny Carvajal";
   return (
     <div className={styles.container}>
@@ -72,7 +72,7 @@ export const Layout = ({ children, title, description, home }) => {
       )}
     </div>
   );
-};
+}
 Layout.defaultProps = {
   title: "Next.js | Jhonny",
   description: "Jhonny Default description",

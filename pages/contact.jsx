@@ -1,5 +1,5 @@
 import React from "react";
-import { Layout } from "./blog/components/Layout";
+import Layout from "./blog/components/Layout";
 export default function contact() {
   return (
     <Layout title="Contact Page" description="Contact page description">

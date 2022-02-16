@@ -1,4 +1,4 @@
-import { Layout } from "./blog/components/Layout";
+import Layout from "./blog/components/Layout";
 import utilStyles from "../styles/utils.module.css"
 
 export default function Home() {
